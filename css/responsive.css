@@ -1,0 +1,395 @@
+/* Responsive Design */
+@media screen and (max-width: 1179px) {
+    .cross-button {
+      position: absolute;
+      right: 60px;
+    }
+  }
+  @media screen and (max-width: 779px) {
+    .cross-button {
+      top: -85px;
+      position: relative;
+      right: 3px;
+    }
+    .task {
+      padding-left: 50px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .header {
+      padding-top: 4rem;
+    }
+    .sidebar {
+      display: none;
+      text-align: center;
+      width: 50%;
+      z-index: 1;
+      height: 100%;
+      position: absolute;
+      top: 105px;
+      overflow-x: hidden;
+    }
+    .sidebar button:hover {
+      display: inline-block;
+      transition: 0.3s ease;
+    }
+    input[type="checkbox"]:checked ~ .sidebar {
+      display: block;
+    }
+    .hamburger {
+      display: flex;
+      position: absolute;
+      font-size: 50px;
+      left: 20px;
+      padding-top: 10px;
+      z-index: 2;
+      color: #22223b;
+    }
+    .header-logo {
+      display: none;
+    }
+    .header-logo-responsive {
+      display: flex;
+      position: absolute;
+      top: 10px;
+      left: 100px;
+      justify-content: space-between;
+    }
+    .header-logo-responsive h1 {
+      font-size: 50px;
+      color: #22223b;
+    }
+    .sidebar-content {
+      padding-top: 50px;
+      position: absolute;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      height: 100%;
+      width: 100%;
+    }
+    .sidebar-content button {
+      font-size: 40px;
+      display: flex;
+      flex-direction: row;
+    }
+    .content-position {
+      width: 100%;
+      padding-left: 10px;
+    }
+    .light-text {
+      position: absolute;
+      left: 80px;
+      top: 325px;
+    }
+    .dark-text {
+      position: absolute;
+      right: -60px;
+    }
+    .cross-button {
+      top: -45px;
+    }
+    .task {
+      padding-left: 10px;
+    }
+    .tabcontent {
+      margin-top: 30px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .hamburger {
+      font-size: 40px;
+      padding-top: 10px;
+    }
+    .header-logo-responsive {
+      left: 70px;
+      width: 60px;
+      height: 60px;
+    }
+    .header-logo-responsive h1 {
+      font-size: 40px;
+    }
+    .tabcontent {
+      margin-top: 20px;
+    }
+    .sidebar {
+      width: 50%;
+      height: 100%;
+      top: 85px;
+    }
+    .sidebar-content {
+      font-size: 30px;
+      padding-top: 10px;
+    }
+    .sidebar-content button {
+      font-size: 30px;
+    }
+    .switch-content {
+      position: absolute;
+      top: 180px;
+      left: 40px;
+    }
+    .light-text {
+      position: absolute;
+      left: -10px;
+      top: 55px;
+    }
+    .dark-text {
+      position: absolute;
+      left: 145px;
+    }
+    .notes-body-title {
+      font-size: 25px;
+    }
+    .notes-form-title {
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    .tablinks {
+      font-size: 30px;
+    }
+    .tabcontent {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .notes-container {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .notes-body-title {
+      font-size: 25px;
+      padding-left: 10px;
+    }
+    .notes-form-title {
+      font-size: 20px;
+    }
+    .notes-form-body {
+      font-size: 15px;
+    }
+    .mynotes-container {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 5px;
+    }
+    .mynotes-container-title {
+      font-size: 25px;
+      padding-left: 10px;
+    }
+    .mynotes-title {
+      font-size: 20px;
+    }
+    .mynotes-body {
+      font-size: 15px;
+    }
+    .task {
+      font-size: 20px;
+    }
+    .mytask-container {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .viewp {
+      margin-left: 10px;
+    }
+    .todo-form-title {
+      font-size: 20px;
+    }
+    .notes-form-body {
+      font-size: 14px;
+    }
+    .save-button {
+      height: 45px;
+      width: 45px;
+    }
+    .mynotes-container-title {
+      font-size: 25px;
+    }
+    .mynotes-title {
+      font-size: 25px;
+    }
+    .mynotes-body {
+      font-size: 20px;
+    }
+    .todo-form-title {
+      font-size: 20px;
+    }
+    .task {
+      font-size: 20px;
+      left: 100px;
+    }
+    .check {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      top: -1px;
+      font-size: 15px;
+    }
+    .cross-button {
+      width: 30px;
+      height: 30px;
+      top: -30px;
+      font-size: 15px;
+    }
+    .Noteudo-img img {
+      width: auto;
+      height: auto;
+    }
+    .github {
+      width: 200px;
+      height: 50px;
+    }
+    .github-link a {
+      font-size: 18px;
+    }
+    .about-title {
+      font-size: 25px;
+    }
+    .about-content {
+      font-size: 20px;
+    }
+    .about-content-heart {
+      font-size: 20px;
+    }
+    .about-content-link {
+      display: flex;
+    }
+    .about-content-link a {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .sidebar-content {
+      font-size: 20px;
+      padding-top: 10px;
+    }
+    .sidebar-content button {
+      font-size: 20px;
+    }
+    .switch-content {
+      position: absolute;
+      top: 140px;
+      left: 30px;
+    }
+    label {
+      display: block;
+      height: 30px;
+      width: 60px;
+    }
+    span.slide:before {
+      height: 15px;
+      width: 15px;
+      top: 7px;
+      left: -1px;
+    }
+    .light-text {
+      position: absolute;
+      left: -10px;
+      top: 50px;
+    }
+    .dark-text {
+      position: absolute;
+      top: 50px;
+      left: 90px;
+    }
+    .todo ul li {
+      padding: 0px;
+    }
+    .task {
+      position: relative;
+      font-size: 20px;
+      margin-left: 40px;
+      bottom: 12px;
+      left: 5px;
+    }
+    .check {
+      top: 15px;
+      left: 10px;
+    }
+    .cross-button {
+      top: -45px;
+      right: 10px;
+    }
+    .about-title {
+      font-size: 20px;
+    }
+    .about-content {
+      font-size: 17px;
+    }
+    .about-content-heart {
+      font-size: 17px;
+    }
+    .about-content-link a {
+      font-size: 17px;
+    }
+    .github {
+      width: 200px;
+      height: 40px;
+      margin-top: 10px;
+    }
+    .github-link {
+      margin-top: 0px;
+    }
+    .github img {
+      width: 40px;
+      height: 30px;
+      margin-top: 4px;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    .sidebar-content button {
+      font-size: 15px;
+    }
+    .switch-content {
+      position: absolute;
+      top: 140px;
+      left: 20px;
+    }
+    .light-text {
+      position: absolute;
+      left: -5px;
+      top: 55px;
+      font-size: 10px;
+    }
+    .dark-text {
+      position: absolute;
+      top: 55px;
+      left: 90px;
+      font-size: 10px;
+    }
+    .about-title {
+      font-size: 17px;
+    }
+    .github {
+      width: 180px;
+      height: 40px;
+      margin-top: 10px;
+    }
+    .github-link a {
+      font-size: 15px;
+    }
+    .about-content {
+      font-size: 13px;
+    }
+    .about-content-heart {
+      font-size: 13px;
+    }
+    .about-content-link a {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .header-logo-responsive {
+      width: 40px;
+      height: 40px;
+      top: 20px;
+      left: 60px;
+    }
+    .header-logo-responsive h1 {
+      font-size: 30px;
+    }
+    .tabcontent {
+      margin-top: 10px;
+    }
+    .switch-content {
+      left: 10px;
+    }
+  }
